@@ -1,0 +1,66 @@
+
+
+body { background: url(../img/main-bg.png) top center no-repeat #171717!important; background-size: 200%!important; font-family: 'Work Sans', sans-serif!important; color:#ccc;   }
+
+.navbar-brand img {width: 120px!important; padding: 0}
+.logo-intro img {width: 70%;}
+
+
+
+
+footer img {width: 60%!important;}
+
+.navbar-brand img {width: 120px!important; padding: 0; margin-left: 20px!important;}
+
+h1 { font-weight: 100!important; color: #fff!important; font-weight: bold!important; font-size: 3rem;}
+h2 {font-size: .8rem; color: #ffc400!important; letter-spacing: 2px;}
+h1 span { font-weight: 700!important;}
+h2, h3, h4 { font-weight: normal!important;}
+h3 {font-size: 3rem!important; color: #fff!important;}
+h4 {font-size: 2rem!important; color: #fff!important;}
+
+
+
+.text-left {text-align: left!important;}
+
+.counter {font-weight: bold!important;}
+
+.btn-primary {background: transparent!important; border: 1px solid white! important; border-radius: 8px!important; color: #00C0FF!important;}
+
+.banner--stick.transparent, .banner--stick:not(.navbar-dark) {background:linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);}
+button.hamburger span, button.hamburger:after, button.hamburger:before {background: #fff;}
+.banner--stick.transparent.navbar-dark .nav-link, .banner--stick:not(.navbar-dark).navbar-dark .nav-link {color: #fff;}
+
+
+
+.floating { 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 25px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+footer {background: black;}
+
+
+@media (min-width: 516px) {
+   
+    h1 {font-size: 4rem!important;}
+    
+    body {background-size: 100%!important;}
+     
+}
+
+@media (max-width: 991.98px) { 
+    .offcanvas-nav {background: rgba(0, 0, 0, 0.3)!important;   backdrop-filter: blur(20px);}
+    
+    .navbar-brand img {margin-left: -20px;}
+}
